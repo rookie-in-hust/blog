@@ -237,7 +237,7 @@
   }
 
   // stellar js
-  stellar.plugins.stellar = Object.assign({"sites":"js/plugins/sites.js","friends":"js/plugins/friends.js","ghinfo":"js/plugins/ghinfo.js","timeline":"js/plugins/timeline.js","linkcard":"js/plugins/linkcard.js","fcircle":"js/plugins/fcircle.js","weibo":"js/plugins/weibo.js","memos":"js/plugins/memos.js","marked":"js/plugins/marked.js"});
+  stellar.plugins.stellar = Object.assign({"sites":"../js/plugins/sites.js","friends":"../js/plugins/friends.js","ghinfo":"../js/plugins/ghinfo.js","timeline":"../js/plugins/timeline.js","linkcard":"../js/plugins/linkcard.js","fcircle":"../js/plugins/fcircle.js","weibo":"../js/plugins/weibo.js","memos":"../js/plugins/memos.js","marked":"../js/plugins/marked.js"});
 
   stellar.plugins.marked = Object.assign("https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js");
   // optional plugins
@@ -260,12 +260,12 @@
     stellar.plugins.heti = Object.assign({"enable":false,"css":"https://unpkg.com/heti@0.9.2/umd/heti.min.css","js":"https://unpkg.com/heti@0.9.2/umd/heti-addon.min.js"});
   }
   if ('true' == 'true') {
-    stellar.plugins.copycode = Object.assign({"enable":true,"js":"js/plugins/copycode.js","default_text":"Copy","success_text":"Copied","toast":"复制成功"});
+    stellar.plugins.copycode = Object.assign({"enable":true,"js":"../js/plugins/copycode.js","default_text":"Copy","success_text":"Copied","toast":"复制成功"});
   }
 </script>
 
 <!-- required -->
-<script src="js/main.js" async></script>
+<script src="../js/main.js" async></script>
 
 <!-- optional -->
 
